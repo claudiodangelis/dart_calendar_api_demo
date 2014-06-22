@@ -1,0 +1,58 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+
+#logout {
+  display:none;
+  visibility:hidden;
+}
+
+#buttons {
+  float: right;
+}
+
+#title {
+  float: left;
+  font-size:24px;
+  color: #666666;
+}
+
+header {
+  heigth: 55px;
+  margin-top:-8px;
+}
+
+#events {
+  border-top: 1px solid #CCC;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 55px;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+}
+
+button {
+  border: 1px solid;
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  width: 85px;
+  font-size:large;
+  background-color:#8C8C8C;
+}
+
+button:active {
+  background-color: #888;
+}
+
+button:hover {
+  background-color: #666;
+}

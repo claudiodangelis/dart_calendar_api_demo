@@ -1,13 +1,13 @@
 {
   "name": "Dart Sample App",
   "version": "1",
-  
+
   "manifest_version": 2,
   "oauth2": {
-    "client_id" : "1031170966023.apps.googleusercontent.com",
+    "client_id" : "INSERT_CLIENT_ID",
     "scopes" : ["https://www.googleapis.com/auth/calendar"]
   },
-  
+
   "icons": {"128": "dart_icon.png"},
   "permissions":["webview","identity","https://*/","http://*/"],
   "app": {

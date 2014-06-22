@@ -2,5 +2,6 @@ name: dart_calendar_api_demo
 description: A sample chrome packaged application
 dependencies:
   browser: any
-  chrome: any
+  chrome_gen: any
+  google_calendar_v3_api: any
   intl: any
